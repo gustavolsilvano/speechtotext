@@ -29,7 +29,7 @@
     "firebase": "^8.3.0",
     "firebase-admin": "^9.5.0",
     "helmet": "^4.4.1",
-    "lodash": "^4.17.21",
+    "mp3-to-wav": "^0.1.11",
     "rimraf": "^3.0.2",
     "typescript": "^4.2.3",
     "wav-file-info": "^0.0.10"

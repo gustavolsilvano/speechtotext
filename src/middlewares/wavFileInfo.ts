@@ -7,6 +7,7 @@ export default (req: Request, res: Response, next: any) => {
   wavFileInfo.infoByFilename(filePath, function (err: any, info: any) {
     if (err) return res.send('error');
     req.wavFileInfo = info;
+    console.log(info);
     req.filePath = filePath;
     next();
   });

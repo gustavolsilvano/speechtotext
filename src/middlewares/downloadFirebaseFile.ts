@@ -28,6 +28,7 @@ export default async (req: Request, res: Response, next: any) => {
   );
 
   req.filePath = destFilename;
+  req.fileName = srcFilename;
 
   next();
 };

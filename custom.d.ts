@@ -3,5 +3,7 @@ declare namespace Express {
     wavFileInfo?: any;
     filePath?: any;
     firebase?: any;
+    fileName?: string;
+    buffer?: ArrayBuffer;
   }
 }
